@@ -1,0 +1,12 @@
+ano_nascimento=int(input('Ano de nascimento: '))
+ano_atual=2024
+idade=ano_atual - ano_nascimento
+falta=18 - idade
+alistamento=ano_nascimento + 18
+print(f'Quem nasceu em {ano_nascimento} tem {idade} anos em {ano_atual}')
+if(idade > 18):
+    print('Você não precisa fazer alistamento')
+else:
+    print(f'Ainda faltam {falta} anos para o alistamento')
+    print(f'Seu alistamento será {alistamento}')
+    
